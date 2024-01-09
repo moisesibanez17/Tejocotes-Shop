@@ -1,0 +1,51 @@
+/* Add general styles for your form */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+fieldset {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border: none;
+}
+
+#div_login {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+#div_c {
+    margin: 10px;
+}
+
+#botones {
+    margin: 5px 0;
+    padding: 5px;
+    width: 100%;
+}
+
+/* Add specific styles for your table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+/* Add more styles as needed */

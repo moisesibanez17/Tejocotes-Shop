@@ -1,0 +1,53 @@
+body {
+    background-color: #091014;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+#field {
+    font-family: courier;
+    text-align: center;
+    background-color: #122936;
+    border: none;
+}
+
+#img_login {
+    margin: 20px auto;
+    text-align: center;
+}
+
+#img_login img {
+    width: 500px;
+    height: 500px;
+}
+
+#div_login {
+    margin: 20px auto;
+    text-align: center;
+}
+
+#div_center {
+    width: 50%;
+    margin: 20px auto;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+#botones {
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    border: 1px solid #024573;
+    font-size: 16px;
+    color: white;
+    background-color: #043759;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#botones:hover {
+    background-color: #024573;
+}

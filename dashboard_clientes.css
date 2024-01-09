@@ -1,0 +1,103 @@
+body {
+    background-color: #091014;
+    color: white;
+}
+
+/* Shared style for left, center, and right divs */
+#div_left,
+#div_center,
+#div_right {
+    width: 30%;
+    padding: 10px;
+    margin: 5px;
+    background-color: #036eab;
+    border-radius: 15px; /* Added rounded corners */
+}
+
+/* Left div specific styles */
+#div_left {
+    float: left;
+}
+
+#div_left img {
+    display: block;
+    margin: 0 auto;
+    float: right;
+}
+
+/* Button styles */
+#botones {
+    height: 20px;
+    width: 150px;
+    border-radius: 20px;
+    border: 1px solid #024573;
+    padding: 1px;
+    font-family: verdana;
+    color: white;
+    background-color: #043759;
+}
+
+#botones:focus,
+#botones:valid {
+    outline: none;
+    border-color: #024573;
+    box-shadow: 0 0 5px #024573;
+}
+
+/* Text field styles */
+#field {
+    font-family: courier;
+    text-align: center;
+    background-color: #122936;
+    border-radius: 15px; /* Added rounded corners */
+}
+
+/* Login div styles */
+#div_login,
+#img_login {
+    text-align: center;
+    align-content: center;
+    width: 1400px;
+    background-color: #036eab;
+    border-radius: 15px; /* Added rounded corners */
+}
+
+/* Select box styles */
+#selects {
+    height: 25px;
+    width: 50px;
+    border-radius: 20px;
+    border: 1px solid #024573;
+    font-family: verdana;
+    color: white;
+    background-color: #043759;
+    padding: 5px;
+    outline: none;
+}
+
+#selects option {
+    color: black;
+    background-color: #f0f0f0;
+    font-family: verdana;
+}
+
+/* Additional div styles */
+#div1 {
+    padding: 10px;
+    margin: 5px;
+    background-color: #036eab;
+    border-radius: 15px; /* Added rounded corners */
+}
+
+/* Center div specific styles */
+#div_center {
+    display: inline-block;
+    text-align: center;
+    border-radius: 15px; /* Added rounded corners */
+}
+
+/* Right div specific styles */
+#div_right {
+    float: right;
+    border-radius: 15px; /* Added rounded corners */
+}

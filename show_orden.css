@@ -1,0 +1,38 @@
+body {
+    background-color: #091014;
+    color: white;
+    font-family: verdana;
+}
+
+#field {
+    text-align: center;
+    font-family: courier;
+    background-color: #122936;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#div_center {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+#botones {
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+    border: 1px solid #024573;
+    padding: 5px;
+    font-family: verdana;
+    color: white;
+    background-color: #043759;
+    margin-top: 20px;
+}
+
+#botones:focus,
+#botones:valid {
+    outline: none;
+    border-color: #024573;
+    box-shadow: 0 0 5px #024573;
+}

@@ -1,0 +1,51 @@
+body {
+    background-color: #091014;
+    color: white;
+    font-family: verdana;
+}
+
+#field {
+    text-align: center;
+    font-family: courier;
+    background-color: #122936;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#div_login {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#div_center {
+    text-align: center;
+    margin: 20px;
+}
+
+#botones {
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+    border: 1px solid #024573;
+    padding: 5px;
+    font-family: verdana;
+    color: white;
+    background-color: #043759;
+    margin-top: 20px;
+}
+
+#botones:focus,
+#botones:valid {
+    outline: none;
+    border-color: #024573;
+    box-shadow: 0 0 5px #024573;
+}
+
+img {
+    margin-top: 20px;
+    background-color: #036eab; /* Add this line for the blue background */
+    padding: 10px; /* Adjust padding as needed */
+    border-radius: 10px; /* Optional: Add rounded corners */
+}

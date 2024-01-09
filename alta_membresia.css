@@ -1,0 +1,38 @@
+body {
+    background-color: #091014;
+    color: white;
+    font-family: verdana;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.success {
+    background-color: #00cc00;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#botones {
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+    border: 1px solid #024573;
+    padding: 5px;
+    font-family: verdana;
+    color: white;
+    background-color: #043759;
+    margin-top: 20px;
+}
+
+#botones:focus,
+#botones:valid {
+    outline: none;
+    border-color: #024573;
+    box-shadow: 0 0 5px #024573;
+}

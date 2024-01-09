@@ -1,0 +1,45 @@
+body {
+    background-color: #091014;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.success {
+    background-color: #043759;
+    color: white;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+#botones {
+    height: 30px;
+    width: 150px;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #024573;
+    border-radius: 5px;
+    background-color: #043759;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#botones:hover {
+    background-color: #024573;
+}
+
+/* Adjustments for small screens */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+}

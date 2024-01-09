@@ -1,0 +1,101 @@
+body {
+    background-color: #091014;
+    color: white;
+    font-family: verdana;
+}
+
+#field {
+    text-align: center;
+    font-family: courier;
+    background-color: #122936;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#div_center {
+    text-align: center;
+    margin: 20px;
+    display: inline-block; /* Change to 'inline-block' to make them appear side by side */
+    vertical-align: top;   /* Align them at the top */
+}
+
+#botones {
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+    border: 1px solid #024573;
+    padding: 5px;
+    font-family: verdana;
+    color: white;
+    background-color: #043759;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#botones:focus,
+#botones:valid {
+    outline: none;
+    border-color: #024573;
+    box-shadow: 0 0 5px #024573;
+}
+
+img {
+    margin-top: 20px;
+    background-color: #036eab;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;         /* Use flexbox for the container */
+    justify-content: space-around;
+}
+
+.success {
+    text-align: center;
+    background-color: #00ff00;
+    color: #000;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#div_left,
+#div_center,
+#div_right {
+    width: 30%;
+    padding: 10px;
+    margin: 5px;
+    background-color: #036eab;
+    border-radius: 10px;
+}
+
+#div_left {
+    float: left;
+    margin-top: 250px;
+}
+
+#div_right {
+    float: right;
+}
+
+#div_login,
+#img_login {
+    margin-left: 25%;
+    text-align: center;
+    align-content: center;
+    width: 800px;
+    background-color: #036eab;
+}
+
+#selects,
+#field {
+    font-family: courier;
+    text-align: center;
+    background-color: #122936;
+}
+
+#div1 {
+    padding: 10px;
+    margin: 5px;
+    background-color: #036eab;
+}

@@ -1,0 +1,43 @@
+body {
+    background-color: #091014;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.success {
+    color: #ffffff;
+}
+
+#error {
+    color: #f44336;
+}
+
+#botones {
+    height: 30px;
+    width: 200px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #043759;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+#botones:hover {
+    background-color: #024573;
+}
+
+/* Adjustments for small screens */
+@media only screen and (max-width: 600px) {
+    #botones {
+        width: 100%;
+    }
+}
